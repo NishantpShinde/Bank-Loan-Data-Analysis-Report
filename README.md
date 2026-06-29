@@ -317,7 +317,15 @@ Implemented:
 
 ---
 
-## 7. Insight Generation
+# 7. SQL Validation & Business Query Analysis
+
+To ensure the accuracy and consistency of the Power BI dashboard, SQL was used to independently validate all major business metrics and KPIs generated in the report.
+
+The SQL analysis served as a secondary verification layer, confirming that the values displayed in Power BI matched the results obtained directly from the underlying dataset.
+
+---
+
+## 8. Insight Generation
 
 * Loan applications show consistent monthly demand, indicating stable lending opportunities throughout the year.
 * Debt Consolidation is the most common loan purpose, highlighting customers' preference for managing existing financial obligations.
@@ -330,7 +338,7 @@ Implemented:
 
 ---
 
-## 8. Business Recommendations 
+## 9. Business Recommendations 
 
 Based on the insights generated from the dashboard, the following strategic actions can help improve lending performance, reduce financial risk, and increase profitability.
 
@@ -424,7 +432,9 @@ Bank-Loan-Analysis-Dashboard/
 │   ├── Dashboard_Overview.png
 │   └── Dashboard_Details.png
 ├── README.md
-└── LICENSE
+├── SQL_script_column_modifications.sql
+├── SQL_script.sql
+├── SQL Query Doc.docx
 ```
 
 
