@@ -420,9 +420,9 @@ Bank-Loan-Analysis-Dashboard/
 ├── Bank Loan Data Dashboard.pbix
 ├── bank_financial_loan.csv
 ├── Images/
-│   ├── Summary Dashboard.png
-│   ├── Overview Dashboard.png
-│   └── Details Dashboard.png
+│   ├── Summary_Dashboard.png
+│   ├── Overview_Dashboard.png
+│   └── Details_Dashboard.png
 ├── README.md
 └── LICENSE
 ```
@@ -432,7 +432,7 @@ Bank-Loan-Analysis-Dashboard/
 
 ## Summary Dashboard
 
-> *[!Dashboard Preview](https://github.com/NishantpShinde/Bank-Loan-Data-Analysis-Report/blob/main/Images/Dashboard_Details.png)*
+![Alt text](https://github.com/NishantpShinde/Bank-Loan-Data-Analysis-Report/blob/main/Images/Dashboard_Details.png)
 
 ---
 
