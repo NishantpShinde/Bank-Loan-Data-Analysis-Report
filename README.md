@@ -432,7 +432,7 @@ Bank-Loan-Analysis-Dashboard/
 
 ## Summary Dashboard
 
-> *[(Insert Summary Dashboard Screenshot Here)](https://github.com/NishantpShinde/Bank-Loan-Data-Analysis-Report/blob/main/Images/Dashboard_Details.png)*
+> *[!Dashboard Preview](https://github.com/NishantpShinde/Bank-Loan-Data-Analysis-Report/blob/main/Images/Dashboard_Details.png)*
 
 ---
 
