@@ -323,7 +323,7 @@ Implemented:
 * Debt Consolidation is the most common loan purpose, highlighting customers' preference for managing existing financial obligations.
 * Good Loans (Fully Paid and Current) represent the majority of the loan portfolio, reflecting healthy overall lending performance.
 * Charged-Off loans account for a smaller share of the portfolio but remain a significant contributor to financial losses.
-* Certain states generate substantially higher loan volumes, presenting opportunities for regional business expansion.
+* CA, NY and TX states generate substantially higher loan volumes, presenting opportunities for regional business expansion.
 * Borrowers with longer employment histories tend to receive more loan approvals, suggesting employment stability is an important lending factor.
 * Homeowners and mortgage holders represent a significant portion of borrowers, making them valuable customer segments for cross-selling financial products.
 * Monitoring Interest Rate and Debt-to-Income (DTI) metrics helps identify borrower risk levels and supports more informed lending decisions.
