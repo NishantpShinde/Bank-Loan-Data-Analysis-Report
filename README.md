@@ -527,8 +527,7 @@ Bank-Loan-Analysis-Dashboard/
 
 ---
 
-## 👤 Author
+# 👤 Author
 
 **Nishant Shinde**
-
-If you found this project useful, feel free to ⭐ the repository and connect with me on LinkedIn!
+**Email:** imnishant333@gmail.com
