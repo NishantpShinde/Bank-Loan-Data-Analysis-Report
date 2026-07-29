@@ -22,13 +22,14 @@ The dashboard was built using the following tools and technologies:
 * 📂 **Power Query Editor** – Data transformation and cleaning layer used to import, clean, and prepare raw banking data.
 * 🧠 **DAX (Data Analysis Expressions)** – Used for creating calculated measures, KPIs, time intelligence calculations, and dynamic reporting.
 * 🔗 **Data Modeling** – Relationships established between tables using a Star Schema model to enable efficient filtering and reporting.
-* 📅 **Calendar Table** – Created to support Month-to-Date (MTD), Month-over-Month (MoM), and Year-to-Date (YTD) calculations.
 * 📈 **Interactive Visualizations** – KPI Cards, Line Charts, Bar Charts, Filled Maps, Donut Charts, Tree Maps, Matrix Tables, and Slicers.
+* 🗄️ **SQL** – Used to query, validate, and verify key metrics, KPIs, and business insights generated in the Power BI dashboard, ensuring data accuracy and consistency.
 * 📁 **File Format**
 
   * `.pbix` – Power BI project file
   * `.png` – Dashboard preview images
   * `.csv` – Dataset used
+  * `.sql` – Sql script file
 
 ---
 
@@ -57,6 +58,8 @@ The dataset contains historical loan application records submitted by customers 
 * Verification Status
 
 The dataset simulates a real-world banking loan portfolio and is widely used for Business Intelligence and Financial Analytics projects.
+
+The Dataset is sourced from Kaggle.
 
 ---
 
@@ -340,18 +343,84 @@ The SQL analysis served as a secondary verification layer, confirming that the v
 
 ## 9. Business Recommendations 
 
-Based on the insights generated from the dashboard, the following strategic actions can help improve lending performance, reduce financial risk, and increase profitability.
+# 🚀 Business Recommendations
 
-* Strengthen Credit Risk Assessment
-* Reduce Loan Defaults
-* Focus on High-Performing Customer Segments
-* Expand in High-Demand Regions
-* Develop Purpose-Specific Loan Products
-* Optimize Interest Rate Strategy
-* Improve Customer Experience
-* Increase Cross-Selling Opportunities
-* Continuously Monitor Portfolio Performance
-* Adopt Predictive Analytics for Lending Decisions
+Based on the insights derived from the Bank Loan Analysis Dashboard, the following strategic recommendations can help improve portfolio quality, increase profitability, and reduce lending risk.
+
+---
+
+### 📅 1. Maintain Consistent Loan Availability Throughout the Year
+
+Since loan applications remain relatively stable every month, the bank should ensure adequate staffing, underwriting capacity, and loan processing resources throughout the year rather than focusing on seasonal demand. Consistent operational readiness will help reduce approval turnaround time and improve customer satisfaction.
+
+---
+
+### 💳 2. Develop Specialized Debt Consolidation Loan Products
+
+Debt Consolidation is the most common loan purpose, indicating strong customer demand. The bank should introduce competitive debt consolidation products with attractive interest rates, flexible repayment options, and refinancing offers to increase market share while helping customers better manage their financial obligations.
+
+---
+
+### ✅ 3. Expand Lending to Low-Risk Customer Segments
+
+As Good Loans (Fully Paid and Current) constitute the majority of the portfolio, the bank should continue targeting borrowers with strong repayment histories and favorable credit profiles. Expanding lending within these lower-risk segments can increase loan disbursements while maintaining portfolio quality.
+
+---
+
+### ⚠️ 4. Strengthen Credit Risk Assessment to Reduce Charged-Off Loans
+
+Although Charged-Off loans represent a smaller proportion of the portfolio, they contribute significantly to financial losses. The bank should enhance credit scoring models, tighten underwriting standards for high-risk applicants, and implement early warning systems to identify borrowers showing signs of potential default.
+
+---
+
+### 🌎 5. Increase Market Penetration in High-Performing States
+
+California (CA), New York (NY), and Texas (TX) generate the highest loan volumes. The bank should prioritize these regions by expanding branch networks, increasing digital marketing efforts, and launching localized financial products to capture additional market share and maximize revenue growth.
+
+---
+
+### 👔 6. Reward Employment Stability Through Risk-Based Lending
+
+Borrowers with longer employment histories demonstrate higher approval rates and typically represent lower credit risk. The bank should offer preferential interest rates, higher loan limits, or faster approval processes to customers with stable employment while maintaining appropriate verification procedures.
+
+---
+
+### 🏠 7. Cross-Sell Financial Products to Homeowners and Mortgage Holders
+
+Homeowners and customers with existing mortgages represent financially established customer segments. The bank should leverage this opportunity by offering complementary products such as home equity loans, mortgage refinancing, insurance plans, investment products, and premium banking services to increase customer lifetime value.
+
+---
+
+### 📊 8. Continuously Monitor Interest Rate and Debt-to-Income (DTI) Metrics
+
+Interest Rate and Debt-to-Income (DTI) ratios are key indicators of borrower risk. The bank should integrate these metrics into its ongoing credit monitoring framework to refine lending decisions, adjust pricing strategies, and proactively identify customers requiring additional risk assessment before loan approval.
+
+---
+
+### 🤖 9. Implement Data-Driven Credit Decision Models
+
+Utilize historical loan performance data to develop predictive risk models that estimate default probability before loan approval. Leveraging data analytics and machine learning can improve approval accuracy, reduce non-performing loans, and optimize overall portfolio performance.
+
+---
+
+### 📈 10. Monitor Portfolio Performance Through Interactive Dashboards
+
+Regularly track KPIs such as Total Loan Applications, Funded Amount, Amount Received, Good Loan Percentage, Charged-Off Rate, Interest Rate, and DTI using interactive dashboards. Continuous monitoring enables management to quickly identify emerging trends, evaluate lending performance, and make proactive business decisions.
+
+---
+
+# 🎯 Expected Business Impact
+
+Implementing these recommendations can help the bank:
+
+- Increase loan disbursements while maintaining high portfolio quality.
+- Reduce financial losses associated with loan defaults.
+- Improve borrower selection through enhanced risk assessment.
+- Strengthen customer retention through personalized lending strategies.
+- Maximize revenue by expanding operations in high-performing states.
+- Increase customer lifetime value through cross-selling opportunities.
+- Improve operational efficiency with data-driven lending decisions.
+- Support sustainable business growth while effectively managing credit risk.
   
 ---
 
